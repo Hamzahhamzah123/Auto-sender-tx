@@ -1,14 +1,17 @@
 Bot repeatedly deploy SC
 
-Please create file .env and insert your private key.
 
-Create file .env:
 
-nano .env
+
+Please create file `.env` and insert your private key.
+
+Create file `.env`:
+
+`nano .env`
 
 Fill with Format
 
-PRIVATE_KEY=your_private_key_here
+`PRIVATE_KEY=your_private_key_here`
 
 
 
