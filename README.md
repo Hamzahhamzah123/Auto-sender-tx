@@ -1,35 +1,34 @@
-Bot repeatedly deploy SC
-
-
-
+# Bot repeatedly deploy SC
 
 Please create file `.env` and insert your private key.
 
-Create file `.env`:
+### Create file `.env`
+```bash
+nano .env
+```
 
-`nano .env`
+### Fill with Format
+```plaintext
+PRIVATE_KEY=your_private_key_here
+```
 
-Fill with Format
+### Install all requirements
+```bash
+pip install -r requirements.txt
+```
 
-`PRIVATE_KEY=your_private_key_here`
+### Run bot
+```bash
+python Bot.py
+```
 
-Install all requirement
+**Note**: If you want to do another transaction on a different chain, change the RPC URL in `config.py` file.
 
-`pip install -r requirements.txt`
+```bash
+nano config.py
+```
 
-Run bot 
+### Follow Me
+- Follow my Medium: [@hamzahnorsihab07](https://medium.com/@hamzahnorsihab07)
+- Follow my X: [@MyStackBear](https://x.com/MyStackBear)
 
-`python Bot.py`
-
-
-
-
-Note : If you want do another tx on other chain, change the RPC URL in `config.py` file
-
-`nano config.py`
-
-
-
-Follow my Medium: @hamzahnorsihab07
-
-Follow my X: @MyStackBear`
