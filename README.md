@@ -13,6 +13,16 @@ Fill with Format
 
 `PRIVATE_KEY=your_private_key_here`
 
+Install all requirement
+
+`pip install -r requirements.txt`
+
+Run bot 
+
+`python Bot.py`
+
+
+
 
 Note : If you want do another tx on other chain, change the RPC URL in `config.py` file
 
