@@ -14,6 +14,10 @@ Fill with Format
 `PRIVATE_KEY=your_private_key_here`
 
 
+Note : If you want do another tx on other chain, change the RPC URL in `config.py` file
+
+`nano config.py`
+
 
 
 Follow my Medium: @hamzahnorsihab07
