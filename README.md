@@ -1,4 +1,4 @@
-# Bot repeatedly deploy SC
+# Bot repeatedly sending tx
 
 Please create file `.env` and insert your private key.
 
